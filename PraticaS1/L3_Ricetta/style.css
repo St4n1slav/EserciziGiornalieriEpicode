@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+header img {
+    width: 200px;
+}
+header nav{
+    background-color: rgb(255, 255, 228);
+    padding: 0.5em;
+    border-top: 1px solid orange;
+}
+article{
+    width: 50%;
+    margin:auto;
+    text-align: left;
+}
+#autor{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.666);
+    margin-top: 0.5em;
+}
+article img {
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.outside{
+border-left: 1px solid orange;
+padding-left: 15px;
+}
+div p{
+    margin-bottom: 0;
+    color: rgb(199, 7, 7);
+}
+div a{
+    margin-top: 0;
+    color: rgb(83, 80, 80);
+}
+footer{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+footer a{
+    color: rgb(83, 80, 80);
+}
