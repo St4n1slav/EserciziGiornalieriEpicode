@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+</head>
+<body>
+
+    <header>
+
+        <a href="#"><img src="./assets/img/logo.svg"></a>
+        <p>Menu:</p>
+
+        <nav>
+
+            <button type="home"> Home </button>
+            <button type="articoli"> Articoli </button>
+            <button type="lavora_con_noi"> Lavora con noi </button>
+    
+        </nav>
+
+        <h1>Come creare un template per i post</h1>
+        <h2>di Mario Rossi - il 25/10/2020</h2>
+        <hr>
+        
+    </header>
+
+    <main>
+        <section>
+                <p> La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine</p> </p>
+                <p> Le varie aree saranno quindi suddivise in:</p>
+                <ul>
+                    <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
+                    <li>Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo principale)</li>
+                    <li>Contenuti di fine paginacomuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
+                </ul>
+                <p>Formazione del codice</p>
+                <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:</p>
+                <ol>
+                    <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li>Applicare gli stili CSS</li>
+                </ol>
+                <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+                
+                <table border="1">
+                    <caption>Diffusione dei CSS</caption>
+                    <thead>
+                        <tr>
+                            <th>Anno</th>
+                            <th>% di utilizzo</th>
+                            <th>Supporto browser</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2000</td>
+                            <td>20%</td>
+                            <td>17%</td>
+                        </tr>
+                        <tr>
+                            <td>2002</td>
+                            <td>35%</td>
+                            <td>22%</td>
+                        </tr>
+                        <tr>
+                            <td>2004</td>
+                            <td>45%</td>
+                            <td>42%</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>80%</td>
+                            <td>51%</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>100%</td>
+                            <td>76%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+            <article>
+                <p>Un test di validazione potrà essere fatto tramite il tool online <a href="https://www.w3schools.com/">www.w3schools com</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obbiettivo ed essere stati dei veri developers come loro:</a></p>
+                <iframe width="350" height="205" src="https://www.youtube.com/embed/qbWqXKN3m3c?si=SoW5PW0kR_ldPmmC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+        <form method="post" action="#">
+            <label for="mail_newsletter">Inserisci l'email</label>
+            <input type="email" id="mail_newsletter" name="mail_newsletter" placeholder="LaTuaEmail@qwerty.net"/>
+        </form>
+
+        <button type="submit">Iscriviti!</button>
+        <p>Articoli correlati
+        <br>Validare il codice HTML
+        <br>Categoria: developer
+        <br>Data: 18/09/2020</p>
+
+        <p>Correggere la sintassi
+        <br>Categoria: developer
+        <br>Data: 16/09/2020</p>
+
+        <p>Meno Kb nella pagina
+        <br>Categoria: ottimizzazione
+        <br>Categoria: developer
+        <br>Data: 30/09/2020</p>
+
+    </aside>
+
+    <footer>
+        Blog Epicode &copy;2023
+        <p>Testata online di Mario Rossi, registrati can orot. n.213/2018 - via Luigi Rinaudi 2. P.IVA 00112233.
+        <br><a href="#">info@epicode.school</a>
+        </p>
+
+
+    </footer>
+    
+</body>
+</html>
